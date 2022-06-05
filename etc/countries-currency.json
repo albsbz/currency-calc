@@ -1,0 +1,938 @@
+{
+  "AFN": {
+    "name": "Afghanistan",
+    "currency": "AFN",
+    "symbol": "؋",
+    "cnc": "AF"
+  },
+  "EUR": {
+    "name": "Spain",
+    "currency": "EUR",
+    "symbol": "€",
+    "cnc": "ES"
+  },
+  "ALL": {
+    "name": "Albania",
+    "currency": "ALL",
+    "symbol": "Lek",
+    "cnc": "AL"
+  },
+  "DZD": {
+    "name": "Algeria",
+    "currency": "DZD",
+    "symbol": "دج",
+    "cnc": "DZ"
+  },
+  "USD": {
+    "name": "Virgin Islands, U.s.",
+    "currency": "USD",
+    "symbol": "$",
+    "cnc": "VI"
+  },
+  "AOA": {
+    "name": "Angola",
+    "currency": "AOA",
+    "symbol": "Kz",
+    "cnc": "AO"
+  },
+  "XCD": {
+    "name": "Saint Vincent and the Grenadines",
+    "currency": "XCD",
+    "symbol": "$",
+    "cnc": "VC"
+  },
+  "AAD": {
+    "name": "Antarctica",
+    "currency": "AAD",
+    "symbol": "$",
+    "cnc": "AQ"
+  },
+  "ARS": {
+    "name": "Argentina",
+    "currency": "ARS",
+    "symbol": "$",
+    "cnc": "AR"
+  },
+  "AMD": {
+    "name": "Armenia",
+    "currency": "AMD",
+    "symbol": "֏",
+    "cnc": "AM"
+  },
+  "AWG": {
+    "name": "Aruba",
+    "currency": "AWG",
+    "symbol": "ƒ",
+    "cnc": "AW"
+  },
+  "AUD": {
+    "name": "Tuvalu",
+    "currency": "AUD",
+    "symbol": "$",
+    "cnc": "TV"
+  },
+  "AZN": {
+    "name": "Azerbaijan",
+    "currency": "AZN",
+    "symbol": "m",
+    "cnc": "AZ"
+  },
+  "BSD": {
+    "name": "Bahamas",
+    "currency": "BSD",
+    "symbol": "B$",
+    "cnc": "BS"
+  },
+  "BHD": {
+    "name": "Bahrain",
+    "currency": "BHD",
+    "symbol": ".د.ب",
+    "cnc": "BH"
+  },
+  "BDT": {
+    "name": "Bangladesh",
+    "currency": "BDT",
+    "symbol": "৳",
+    "cnc": "BD"
+  },
+  "BBD": {
+    "name": "Barbados",
+    "currency": "BBD",
+    "symbol": "Bds$",
+    "cnc": "BB"
+  },
+  "BYN": {
+    "name": "Belarus",
+    "currency": "BYN",
+    "symbol": "Br",
+    "cnc": "BY"
+  },
+  "BZD": {
+    "name": "Belize",
+    "currency": "BZD",
+    "symbol": "$",
+    "cnc": "BZ"
+  },
+  "XOF": {
+    "name": "Togo",
+    "currency": "XOF",
+    "symbol": "CFA",
+    "cnc": "TG"
+  },
+  "BMD": {
+    "name": "Bermuda",
+    "currency": "BMD",
+    "symbol": "$",
+    "cnc": "BM"
+  },
+  "BTN": {
+    "name": "Bhutan",
+    "currency": "BTN",
+    "symbol": "Nu.",
+    "cnc": "BT"
+  },
+  "BOB": {
+    "name": "Bolivia",
+    "currency": "BOB",
+    "symbol": "Bs.",
+    "cnc": "BO"
+  },
+  "BAM": {
+    "name": "Bosnia and Herzegovina",
+    "currency": "BAM",
+    "symbol": "KM",
+    "cnc": "BA"
+  },
+  "BWP": {
+    "name": "Botswana",
+    "currency": "BWP",
+    "symbol": "P",
+    "cnc": "BW"
+  },
+  "NOK": {
+    "name": "Svalbard and Jan Mayen",
+    "currency": "NOK",
+    "symbol": "kr",
+    "cnc": "SJ"
+  },
+  "BRL": {
+    "name": "Brazil",
+    "currency": "BRL",
+    "symbol": "R$",
+    "cnc": "BR"
+  },
+  "BND": {
+    "name": "Brunei Darussalam",
+    "currency": "BND",
+    "symbol": "B$",
+    "cnc": "BN"
+  },
+  "BGN": {
+    "name": "Bulgaria",
+    "currency": "BGN",
+    "symbol": "Лв.",
+    "cnc": "BG"
+  },
+  "BIF": {
+    "name": "Burundi",
+    "currency": "BIF",
+    "symbol": "FBu",
+    "cnc": "BI"
+  },
+  "KHR": {
+    "name": "Cambodia",
+    "currency": "KHR",
+    "symbol": "KHR",
+    "cnc": "KH"
+  },
+  "XAF": {
+    "name": "Gabon",
+    "currency": "XAF",
+    "symbol": "FCFA",
+    "cnc": "GA"
+  },
+  "CAD": {
+    "name": "Canada",
+    "currency": "CAD",
+    "symbol": "$",
+    "cnc": "CA"
+  },
+  "CVE": {
+    "name": "Cape Verde",
+    "currency": "CVE",
+    "symbol": "$",
+    "cnc": "CV"
+  },
+  "KYD": {
+    "name": "Cayman Islands",
+    "currency": "KYD",
+    "symbol": "$",
+    "cnc": "KY"
+  },
+  "CLP": {
+    "name": "Chile",
+    "currency": "CLP",
+    "symbol": "$",
+    "cnc": "CL"
+  },
+  "CNY": {
+    "name": "China",
+    "currency": "CNY",
+    "symbol": "¥",
+    "cnc": "CN"
+  },
+  "COP": {
+    "name": "Colombia",
+    "currency": "COP",
+    "symbol": "$",
+    "cnc": "CO"
+  },
+  "KMF": {
+    "name": "Comoros",
+    "currency": "KMF",
+    "symbol": "CF",
+    "cnc": "KM"
+  },
+  "CDF": {
+    "name": "Congo, Democratic Republic of the Congo",
+    "currency": "CDF",
+    "symbol": "FC",
+    "cnc": "CD"
+  },
+  "NZD": {
+    "name": "Tokelau",
+    "currency": "NZD",
+    "symbol": "$",
+    "cnc": "TK"
+  },
+  "CRC": {
+    "name": "Costa Rica",
+    "currency": "CRC",
+    "symbol": "₡",
+    "cnc": "CR"
+  },
+  "HRK": {
+    "name": "Croatia",
+    "currency": "HRK",
+    "symbol": "kn",
+    "cnc": "HR"
+  },
+  "CUP": {
+    "name": "Cuba",
+    "currency": "CUP",
+    "symbol": "$",
+    "cnc": "CU"
+  },
+  "ANG": {
+    "name": "Sint Maarten",
+    "currency": "ANG",
+    "symbol": "ƒ",
+    "cnc": "SX"
+  },
+  "CZK": {
+    "name": "Czech Republic",
+    "currency": "CZK",
+    "symbol": "Kč",
+    "cnc": "CZ"
+  },
+  "DKK": {
+    "name": "Greenland",
+    "currency": "DKK",
+    "symbol": "Kr.",
+    "cnc": "GL"
+  },
+  "DJF": {
+    "name": "Djibouti",
+    "currency": "DJF",
+    "symbol": "Fdj",
+    "cnc": "DJ"
+  },
+  "DOP": {
+    "name": "Dominican Republic",
+    "currency": "DOP",
+    "symbol": "$",
+    "cnc": "DO"
+  },
+  "EGP": {
+    "name": "Egypt",
+    "currency": "EGP",
+    "symbol": "ج.م",
+    "cnc": "EG"
+  },
+  "ERN": {
+    "name": "Eritrea",
+    "currency": "ERN",
+    "symbol": "Nfk",
+    "cnc": "ER"
+  },
+  "ETB": {
+    "name": "Ethiopia",
+    "currency": "ETB",
+    "symbol": "Nkf",
+    "cnc": "ET"
+  },
+  "FKP": {
+    "name": "Falkland Islands (Malvinas)",
+    "currency": "FKP",
+    "symbol": "£",
+    "cnc": "FK"
+  },
+  "FJD": {
+    "name": "Fiji",
+    "currency": "FJD",
+    "symbol": "FJ$",
+    "cnc": "FJ"
+  },
+  "XPF": {
+    "name": "Wallis and Futuna",
+    "currency": "XPF",
+    "symbol": "₣",
+    "cnc": "WF"
+  },
+  "GMD": {
+    "name": "Gambia",
+    "currency": "GMD",
+    "symbol": "D",
+    "cnc": "GM"
+  },
+  "GEL": {
+    "name": "Georgia",
+    "currency": "GEL",
+    "symbol": "ლ",
+    "cnc": "GE"
+  },
+  "GHS": {
+    "name": "Ghana",
+    "currency": "GHS",
+    "symbol": "GH₵",
+    "cnc": "GH"
+  },
+  "GIP": {
+    "name": "Gibraltar",
+    "currency": "GIP",
+    "symbol": "£",
+    "cnc": "GI"
+  },
+  "GTQ": {
+    "name": "Guatemala",
+    "currency": "GTQ",
+    "symbol": "Q",
+    "cnc": "GT"
+  },
+  "GBP": {
+    "name": "United Kingdom",
+    "currency": "GBP",
+    "symbol": "£",
+    "cnc": "GB"
+  },
+  "GNF": {
+    "name": "Guinea",
+    "currency": "GNF",
+    "symbol": "FG",
+    "cnc": "GN"
+  },
+  "GYD": {
+    "name": "Guyana",
+    "currency": "GYD",
+    "symbol": "$",
+    "cnc": "GY"
+  },
+  "HTG": {
+    "name": "Haiti",
+    "currency": "HTG",
+    "symbol": "G",
+    "cnc": "HT"
+  },
+  "HNL": {
+    "name": "Honduras",
+    "currency": "HNL",
+    "symbol": "L",
+    "cnc": "HN"
+  },
+  "HKD": {
+    "name": "Hong Kong",
+    "currency": "HKD",
+    "symbol": "$",
+    "cnc": "HK"
+  },
+  "HUF": {
+    "name": "Hungary",
+    "currency": "HUF",
+    "symbol": "Ft",
+    "cnc": "HU"
+  },
+  "ISK": {
+    "name": "Iceland",
+    "currency": "ISK",
+    "symbol": "kr",
+    "cnc": "IS"
+  },
+  "INR": {
+    "name": "India",
+    "currency": "INR",
+    "symbol": "₹",
+    "cnc": "IN"
+  },
+  "IDR": {
+    "name": "Indonesia",
+    "currency": "IDR",
+    "symbol": "Rp",
+    "cnc": "ID"
+  },
+  "IRR": {
+    "name": "Iran, Islamic Republic of",
+    "currency": "IRR",
+    "symbol": "﷼",
+    "cnc": "IR"
+  },
+  "IQD": {
+    "name": "Iraq",
+    "currency": "IQD",
+    "symbol": "د.ع",
+    "cnc": "IQ"
+  },
+  "ILS": {
+    "name": "Palestinian Territory, Occupied",
+    "currency": "ILS",
+    "symbol": "₪",
+    "cnc": "PS"
+  },
+  "JMD": {
+    "name": "Jamaica",
+    "currency": "JMD",
+    "symbol": "J$",
+    "cnc": "JM"
+  },
+  "JPY": {
+    "name": "Japan",
+    "currency": "JPY",
+    "symbol": "¥",
+    "cnc": "JP"
+  },
+  "JOD": {
+    "name": "Jordan",
+    "currency": "JOD",
+    "symbol": "ا.د",
+    "cnc": "JO"
+  },
+  "KZT": {
+    "name": "Kazakhstan",
+    "currency": "KZT",
+    "symbol": "лв",
+    "cnc": "KZ"
+  },
+  "KES": {
+    "name": "Kenya",
+    "currency": "KES",
+    "symbol": "KSh",
+    "cnc": "KE"
+  },
+  "KPW": {
+    "name": "Korea, Democratic People's Republic of",
+    "currency": "KPW",
+    "symbol": "₩",
+    "cnc": "KP"
+  },
+  "KRW": {
+    "name": "Korea, Republic of",
+    "currency": "KRW",
+    "symbol": "₩",
+    "cnc": "KR"
+  },
+  "KWD": {
+    "name": "Kuwait",
+    "currency": "KWD",
+    "symbol": "ك.د",
+    "cnc": "KW"
+  },
+  "KGS": {
+    "name": "Kyrgyzstan",
+    "currency": "KGS",
+    "symbol": "лв",
+    "cnc": "KG"
+  },
+  "LAK": {
+    "name": "Lao People's Democratic Republic",
+    "currency": "LAK",
+    "symbol": "₭",
+    "cnc": "LA"
+  },
+  "LBP": {
+    "name": "Lebanon",
+    "currency": "LBP",
+    "symbol": "£",
+    "cnc": "LB"
+  },
+  "LSL": {
+    "name": "Lesotho",
+    "currency": "LSL",
+    "symbol": "L",
+    "cnc": "LS"
+  },
+  "LRD": {
+    "name": "Liberia",
+    "currency": "LRD",
+    "symbol": "$",
+    "cnc": "LR"
+  },
+  "LYD": {
+    "name": "Libyan Arab Jamahiriya",
+    "currency": "LYD",
+    "symbol": "د.ل",
+    "cnc": "LY"
+  },
+  "CHF": {
+    "name": "Switzerland",
+    "currency": "CHF",
+    "symbol": "CHf",
+    "cnc": "CH"
+  },
+  "MOP": {
+    "name": "Macao",
+    "currency": "MOP",
+    "symbol": "$",
+    "cnc": "MO"
+  },
+  "MKD": {
+    "name": "Macedonia, the Former Yugoslav Republic of",
+    "currency": "MKD",
+    "symbol": "ден",
+    "cnc": "MK"
+  },
+  "MGA": {
+    "name": "Madagascar",
+    "currency": "MGA",
+    "symbol": "Ar",
+    "cnc": "MG"
+  },
+  "MWK": {
+    "name": "Malawi",
+    "currency": "MWK",
+    "symbol": "MK",
+    "cnc": "MW"
+  },
+  "MYR": {
+    "name": "Malaysia",
+    "currency": "MYR",
+    "symbol": "RM",
+    "cnc": "MY"
+  },
+  "MVR": {
+    "name": "Maldives",
+    "currency": "MVR",
+    "symbol": "Rf",
+    "cnc": "MV"
+  },
+  "MRO": {
+    "name": "Mauritania",
+    "currency": "MRO",
+    "symbol": "MRU",
+    "cnc": "MR"
+  },
+  "MUR": {
+    "name": "Mauritius",
+    "currency": "MUR",
+    "symbol": "₨",
+    "cnc": "MU"
+  },
+  "MXN": {
+    "name": "Mexico",
+    "currency": "MXN",
+    "symbol": "$",
+    "cnc": "MX"
+  },
+  "MDL": {
+    "name": "Moldova, Republic of",
+    "currency": "MDL",
+    "symbol": "L",
+    "cnc": "MD"
+  },
+  "MNT": {
+    "name": "Mongolia",
+    "currency": "MNT",
+    "symbol": "₮",
+    "cnc": "MN"
+  },
+  "MAD": {
+    "name": "Western Sahara",
+    "currency": "MAD",
+    "symbol": "MAD",
+    "cnc": "EH"
+  },
+  "MZN": {
+    "name": "Mozambique",
+    "currency": "MZN",
+    "symbol": "MT",
+    "cnc": "MZ"
+  },
+  "MMK": {
+    "name": "Myanmar",
+    "currency": "MMK",
+    "symbol": "K",
+    "cnc": "MM"
+  },
+  "NAD": {
+    "name": "Namibia",
+    "currency": "NAD",
+    "symbol": "$",
+    "cnc": "NA"
+  },
+  "NPR": {
+    "name": "Nepal",
+    "currency": "NPR",
+    "symbol": "₨",
+    "cnc": "NP"
+  },
+  "NIO": {
+    "name": "Nicaragua",
+    "currency": "NIO",
+    "symbol": "C$",
+    "cnc": "NI"
+  },
+  "NGN": {
+    "name": "Nigeria",
+    "currency": "NGN",
+    "symbol": "₦",
+    "cnc": "NG"
+  },
+  "OMR": {
+    "name": "Oman",
+    "currency": "OMR",
+    "symbol": ".ع.ر",
+    "cnc": "OM"
+  },
+  "PKR": {
+    "name": "Pakistan",
+    "currency": "PKR",
+    "symbol": "₨",
+    "cnc": "PK"
+  },
+  "PAB": {
+    "name": "Panama",
+    "currency": "PAB",
+    "symbol": "B/.",
+    "cnc": "PA"
+  },
+  "PGK": {
+    "name": "Papua New Guinea",
+    "currency": "PGK",
+    "symbol": "K",
+    "cnc": "PG"
+  },
+  "PYG": {
+    "name": "Paraguay",
+    "currency": "PYG",
+    "symbol": "₲",
+    "cnc": "PY"
+  },
+  "PEN": {
+    "name": "Peru",
+    "currency": "PEN",
+    "symbol": "S/.",
+    "cnc": "PE"
+  },
+  "PHP": {
+    "name": "Philippines",
+    "currency": "PHP",
+    "symbol": "₱",
+    "cnc": "PH"
+  },
+  "PLN": {
+    "name": "Poland",
+    "currency": "PLN",
+    "symbol": "zł",
+    "cnc": "PL"
+  },
+  "QAR": {
+    "name": "Qatar",
+    "currency": "QAR",
+    "symbol": "ق.ر",
+    "cnc": "QA"
+  },
+  "RON": {
+    "name": "Romania",
+    "currency": "RON",
+    "symbol": "lei",
+    "cnc": "RO"
+  },
+  "RUB": {
+    "name": "Russian Federation",
+    "currency": "RUB",
+    "symbol": "₽",
+    "cnc": "RU"
+  },
+  "RWF": {
+    "name": "Rwanda",
+    "currency": "RWF",
+    "symbol": "FRw",
+    "cnc": "RW"
+  },
+  "SHP": {
+    "name": "Saint Helena",
+    "currency": "SHP",
+    "symbol": "£",
+    "cnc": "SH"
+  },
+  "WST": {
+    "name": "Samoa",
+    "currency": "WST",
+    "symbol": "SAT",
+    "cnc": "WS"
+  },
+  "STD": {
+    "name": "Sao Tome and Principe",
+    "currency": "STD",
+    "symbol": "Db",
+    "cnc": "ST"
+  },
+  "SAR": {
+    "name": "Saudi Arabia",
+    "currency": "SAR",
+    "symbol": "﷼",
+    "cnc": "SA"
+  },
+  "RSD": {
+    "name": "Serbia and Montenegro",
+    "currency": "RSD",
+    "symbol": "din",
+    "cnc": "CS"
+  },
+  "SCR": {
+    "name": "Seychelles",
+    "currency": "SCR",
+    "symbol": "SRe",
+    "cnc": "SC"
+  },
+  "SLL": {
+    "name": "Sierra Leone",
+    "currency": "SLL",
+    "symbol": "Le",
+    "cnc": "SL"
+  },
+  "SGD": {
+    "name": "Singapore",
+    "currency": "SGD",
+    "symbol": "$",
+    "cnc": "SG"
+  },
+  "SBD": {
+    "name": "Solomon Islands",
+    "currency": "SBD",
+    "symbol": "Si$",
+    "cnc": "SB"
+  },
+  "SOS": {
+    "name": "Somalia",
+    "currency": "SOS",
+    "symbol": "Sh.so.",
+    "cnc": "SO"
+  },
+  "ZAR": {
+    "name": "South Africa",
+    "currency": "ZAR",
+    "symbol": "R",
+    "cnc": "ZA"
+  },
+  "SSP": {
+    "name": "South Sudan",
+    "currency": "SSP",
+    "symbol": "£",
+    "cnc": "SS"
+  },
+  "LKR": {
+    "name": "Sri Lanka",
+    "currency": "LKR",
+    "symbol": "Rs",
+    "cnc": "LK"
+  },
+  "SDG": {
+    "name": "Sudan",
+    "currency": "SDG",
+    "symbol": ".س.ج",
+    "cnc": "SD"
+  },
+  "SRD": {
+    "name": "Suriname",
+    "currency": "SRD",
+    "symbol": "$",
+    "cnc": "SR"
+  },
+  "SZL": {
+    "name": "Swaziland",
+    "currency": "SZL",
+    "symbol": "E",
+    "cnc": "SZ"
+  },
+  "SEK": {
+    "name": "Sweden",
+    "currency": "SEK",
+    "symbol": "kr",
+    "cnc": "SE"
+  },
+  "SYP": {
+    "name": "Syrian Arab Republic",
+    "currency": "SYP",
+    "symbol": "LS",
+    "cnc": "SY"
+  },
+  "TWD": {
+    "name": "Taiwan, Province of China",
+    "currency": "TWD",
+    "symbol": "$",
+    "cnc": "TW"
+  },
+  "TJS": {
+    "name": "Tajikistan",
+    "currency": "TJS",
+    "symbol": "SM",
+    "cnc": "TJ"
+  },
+  "TZS": {
+    "name": "Tanzania, United Republic of",
+    "currency": "TZS",
+    "symbol": "TSh",
+    "cnc": "TZ"
+  },
+  "THB": {
+    "name": "Thailand",
+    "currency": "THB",
+    "symbol": "฿",
+    "cnc": "TH"
+  },
+  "TOP": {
+    "name": "Tonga",
+    "currency": "TOP",
+    "symbol": "$",
+    "cnc": "TO"
+  },
+  "TTD": {
+    "name": "Trinidad and Tobago",
+    "currency": "TTD",
+    "symbol": "$",
+    "cnc": "TT"
+  },
+  "TND": {
+    "name": "Tunisia",
+    "currency": "TND",
+    "symbol": "ت.د",
+    "cnc": "TN"
+  },
+  "TRY": {
+    "name": "Turkey",
+    "currency": "TRY",
+    "symbol": "₺",
+    "cnc": "TR"
+  },
+  "TMT": {
+    "name": "Turkmenistan",
+    "currency": "TMT",
+    "symbol": "T",
+    "cnc": "TM"
+  },
+  "UGX": {
+    "name": "Uganda",
+    "currency": "UGX",
+    "symbol": "USh",
+    "cnc": "UG"
+  },
+  "UAH": {
+    "name": "Ukraine",
+    "currency": "UAH",
+    "symbol": "₴",
+    "cnc": "UA"
+  },
+  "AED": {
+    "name": "United Arab Emirates",
+    "currency": "AED",
+    "symbol": "إ.د",
+    "cnc": "AE"
+  },
+  "UYU": {
+    "name": "Uruguay",
+    "currency": "UYU",
+    "symbol": "$",
+    "cnc": "UY"
+  },
+  "UZS": {
+    "name": "Uzbekistan",
+    "currency": "UZS",
+    "symbol": "лв",
+    "cnc": "UZ"
+  },
+  "VUV": {
+    "name": "Vanuatu",
+    "currency": "VUV",
+    "symbol": "VT",
+    "cnc": "VU"
+  },
+  "VEF": {
+    "name": "Venezuela",
+    "currency": "VEF",
+    "symbol": "Bs",
+    "cnc": "VE"
+  },
+  "VND": {
+    "name": "Viet Nam",
+    "currency": "VND",
+    "symbol": "₫",
+    "cnc": "VN"
+  },
+  "YER": {
+    "name": "Yemen",
+    "currency": "YER",
+    "symbol": "﷼",
+    "cnc": "YE"
+  },
+  "ZMW": {
+    "name": "Zambia",
+    "currency": "ZMW",
+    "symbol": "ZK",
+    "cnc": "ZM"
+  },
+  "ZWL": {
+    "name": "Zimbabwe",
+    "currency": "ZWL",
+    "symbol": "$",
+    "cnc": "ZW"
+  }
+}
