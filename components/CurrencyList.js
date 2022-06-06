@@ -2,21 +2,36 @@ import { StyleSheet, Text, View, FlatList, SafeAreaView } from 'react-native';
 import React from 'react';
 
 import { getFlagEmoji } from '../helpers';
+import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 
-const CurrencyList = ({ currencies }) => {
+function HomeScreen({ navigation }) {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text style={{ fontSize: 30 }}>This is the home screen!</Text>
+      <Button onPress={() => navigation.navigate('MyModal')} title="Open Modal" />
+    </View>
+  );
+}
+
+const CurrencyList = ({ currencies, navigation }) => {
   const renderItem = ({ item }) => {
     return (
-      <View style={styles.item}>
-        <View style={styles.currencyInfo}>
-          <Text style={styles.flag}>{item.cnc ? getFlagEmoji(item.cnc) : ''}</Text>
-          <Text style={styles.currencyCode}>{item.cc}</Text>
-          <Text style={styles.txt}>{item.txt}</Text>
+      <TouchableWithoutFeedback
+        onPress={() =>
+          navigation.navigate('CurrencyModal', {
+            currency: item,
+          })
+        }
+      >
+        <View style={styles.item}>
+          <View style={styles.currencyInfo}>
+            <Text style={styles.flag}>{item.cnc ? getFlagEmoji(item.cnc) : ''}</Text>
+            <Text style={styles.currencyCode}>{item.cc}</Text>
+            <Text style={styles.txt}>{item.txt}</Text>
+          </View>
+          <Text style={styles.rate}>{item.rate.toFixed(2)}</Text>
         </View>
-        <Text style={styles.rate}>
-          {item.rate.toFixed(2) + ' '}
-          {item.symbol || ''}
-        </Text>
-      </View>
+      </TouchableWithoutFeedback>
     );
   };
 

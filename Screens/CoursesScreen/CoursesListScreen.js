@@ -1,20 +1,21 @@
-import { StyleSheet, Text, ScrollView, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
+import React from 'react';
 import { useState, useEffect, useCallback, useLayoutEffect } from 'react';
-import axiosInstance from '../api/axios';
+// import { createStackNavigator } from '@react-navigation/stack';
+import axiosInstance from '../../api/axios';
 
-import AppSpinner from '../components/AppSpinner';
-import CurrencyList from '../components/CurrencyList';
-import * as countriesCurrencies from '../etc/countries-currency.json';
-import AppSearch from '../components/AppSearch';
+import AppSpinner from '../../components/AppSpinner';
+import CurrencyList from '../../components/CurrencyList';
+import * as countriesCurrencies from '../../etc/countries-currency.json';
+import AppSearch from '../../components/AppSearch';
 
-const CoursesScreen = ({ navigation }) => {
+const CoursesListScreen = ({ navigation }) => {
   const [courses, setCourses] = useState([]);
-  const [filteredCourses, setFilteredCourses] = useState([]);
   const [filterValue, setFilterValue] = useState('');
 
   const filterCourses = (c) =>
     c.filter(({ cc, txt }) => {
-      return cc.includes(filterValue) || txt.includes(filterValue);
+      return cc.includes(filterValue.toUpperCase()) || txt.includes(filterValue);
     });
 
   const changeSearchHandler = (v) => {
@@ -48,19 +49,22 @@ const CoursesScreen = ({ navigation }) => {
       console.log('error', error);
     }
   }, [getCourses]);
-
   return (
     <View styles={styles.container}>
       {!courses?.length ? (
         <AppSpinner />
       ) : (
-        <CurrencyList currencies={filterCourses(courses)} styles={styles.list} />
+        <CurrencyList
+          currencies={filterCourses(courses)}
+          styles={styles.list}
+          navigation={navigation}
+        />
       )}
     </View>
   );
 };
 
-export default CoursesScreen;
+export default CoursesListScreen;
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: 'lightyellow' },

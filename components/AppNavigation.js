@@ -18,14 +18,13 @@ export default function AppNavigation() {
         }}
       >
         <Screen
-          name="CurrencyCourses"
+          name="Courses"
           component={CoursesScreen}
           options={{
-            tabBarLabel: 'Courses',
+            headerShown: false,
             tabBarIcon: ({ color, size }) => (
               <MaterialCommunityIcons name="currency-usd" color={color} size={size} />
             ),
-            title: 'Currency courses',
           }}
           styles={styles.container}
         />
