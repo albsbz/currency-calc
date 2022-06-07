@@ -3,6 +3,7 @@ import { useEffect, useState, useCallback } from 'react';
 
 import { getFlagEmoji } from '../../helpers';
 import axiosInstance from '../../api/axios';
+import AppChart from '../../components/AppChart';
 
 const ModalScreen = ({ navigation, route }) => {
   const [rates, setRates] = useState([]);
@@ -10,17 +11,27 @@ const ModalScreen = ({ navigation, route }) => {
   console.log('params', route.params.currency);
   const now = new Date();
   let end = now.toISOString().split('T')[0].split('-').join('');
-  let start = new Date(now.setDate(now.getDate() - 7))
+  let start = new Date(now.setDate(now.getDate() - 356))
     .toISOString()
     .split('T')[0]
     .split('-')
     .join('');
 
+  const prepareForChart = (datesFromApi) => {
+    const data = datesFromApi.map((r) => {
+      const [d, m, y] = r.exchangedate.split('.');
+      return {
+        timestamp: Date.UTC(y, m, d),
+        value: r.rate,
+      };
+    });
+    return data;
+  };
+
   const getRates = useCallback(async () => {
     const { data } = await axiosInstance.get(
       `https://bank.gov.ua/NBU_Exchange/exchange_site?start=${start}&end=${end}&valcode=${cc.toLowerCase()}&sort=exchangedate&order=desc&json`
     );
-    console.log('data', data);
     setRates(data);
   });
 
@@ -46,7 +57,7 @@ const ModalScreen = ({ navigation, route }) => {
       <Text>
         Course on {exchangedate}: {rate.toFixed(2)} hrn
       </Text>
-      <Text>{JSON.stringify(rates)}</Text>
+      <Text>{rates.length && <AppChart data={prepareForChart(rates)} />}</Text>
     </View>
   );
 };
